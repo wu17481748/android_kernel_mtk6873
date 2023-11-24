@@ -1,4 +1,4 @@
-name: 编译OPPO-A92s-mt6873机型内核
+name: 编译OPPO-A92s-安卓12内核
             支持ksu docker lxc
 
 on:
