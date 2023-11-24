@@ -1,4 +1,4 @@
-name: 编译OPPO A92s-mt6873机型内核
+name: 编译OPPO-A92s-mt6873机型内核
             支持ksu docker lxc
 
 on:
@@ -44,7 +44,7 @@ jobs:
     - name: 下载内核源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone https://github.com/wu17481748/android_kernel_mtk6853 android-kernel
+        git clone https://github.com/wu17481748/android_kernel_mtk6873 android-kernel
         cd android-kernel
 
 
